@@ -95,3 +95,33 @@ GitHub Actions will automatically grade your submission.
 The image should appear on the left, with the list positioned beside it.
 
 The final paragraph should appear below the floated image because it clears the left float.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Float Image</title>
+    <style>
+        img {
+            float: left;
+            margin-right: 15px;
+            width: 200px;
+            height: 150px;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h2>Floating Image</h2>
+
+    <img src="flower.jpg" alt="Flower">
+
+    <p>
+        Flowers are beautiful parts of plants.
+        They come in different colours and shapes.
+        Flowers are used for decoration and gifts.
+        They also attract bees and butterflies.
+    </p>
+</body>
+</html>
